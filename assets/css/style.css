@@ -45,7 +45,7 @@ h2 {
     list-style-type: none;
     margin-right: 40px;
     margin-top: 15px;
-    
+
 }
 
 #menu a {
@@ -55,7 +55,7 @@ h2 {
 }
 
 #menu a:hover {
-    background-color: rgb(211,183,183,0.7);
+    background-color: rgb(211, 183, 183, 0.7);
     border-radius: 12px;
     padding: 10px;
 }
