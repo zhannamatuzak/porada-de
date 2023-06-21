@@ -7,9 +7,22 @@
 }
 
 body {
-    font-family: Arial;
     font-family: Source Sans3;
     font-weight: 300;
 
 
+}
+
+/* Headings and Logo */
+
+h1,
+h2 {
+    font-family: Oswald, sans-serif;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
 }
