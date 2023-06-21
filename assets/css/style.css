@@ -65,3 +65,37 @@ h2 {
     border-radius: 12px;
     padding: 10px;
 }
+
+/* justice image */
+
+#justice-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#justice {
+    height: 600px;
+    width: 100%;
+    background: url(../images/justice.jpg) no-repeat center center;
+
+    /*animates zoom effect on loading page */
+
+    animation-name: justice-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+
+/* creates a level of zoom for hero image */
+
+@keyframes justice-zoom {
+    from {
+        transform: scale(1);
+
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
