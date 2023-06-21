@@ -6,10 +6,15 @@
     border: none;
 }
 
-body {
-    font-family: Source Sans3;
-    font-weight: 300;
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Source-Sans-3, serif;
+    font-weight: 300;
 
 }
 
@@ -75,6 +80,7 @@ h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
 }
 
 #justice {
