@@ -29,6 +29,11 @@ h2 {
     color: #252525;
 }
 
+h2 {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 300%;
+}
 
 
 #logo {
@@ -110,4 +115,3 @@ h2 {
         transform: scale(1.1);
     }
 }
-
