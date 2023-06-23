@@ -139,9 +139,9 @@ p {
     padding: 25px 0 25px 0;
 }
 
-/* Topics list flex subsection */
+/* Topics list grid subsection */
 
-.topics-list-flex {
+.topics-list-grid {
     display: grid;
     background-color: rgb(67, 212, 171, 0.2);
     grid-template-columns: auto auto;
@@ -150,7 +150,6 @@ p {
     margin-right: 80px;
     border-radius: 0 30px 0 30px;
 }
-
 
 .list-image {
     width: 10%;
