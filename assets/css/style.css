@@ -18,9 +18,7 @@ body {
 
 }
 
-
-
-/* Headings and Logo */
+/* Headings paragraphs and Logo */
 
 h1,
 h2 {
@@ -33,6 +31,12 @@ h2 {
     text-align: center;
     font-size: 300%;
     margin: 50px 0 50px 0;
+}
+
+h3 {
+    text-align: center;
+    font-size: 170%;
+
 }
 
 p {
@@ -61,17 +65,12 @@ p {
 #menu,
 #logo {
     line-height: 70px;
-
-
-
 }
 
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 40px;
-
-
 }
 
 #menu a {
@@ -127,12 +126,41 @@ p {
     }
 }
 
+/* Description box */
+
 .description-box {
-    background-color: rgb(211, 183, 183, 0.7);
+    background-color: rgb(211, 183, 183, 0.4);
     box-sizing: border-box;
     height: auto;
     width: auto;
     margin-left: 80px;
     margin-right: 80px;
-    border-radius: 40px 0 40px 0;
+    border-radius: 30px 0 30px 0;
+    padding: 25px 0 25px 0;
+}
+
+/* Topics list flex subsection */
+
+.topics-list-flex {
+    display: grid;
+    background-color: rgb(67, 212, 171, 0.2);
+    grid-template-columns: auto auto;
+    padding: 25px 25px 25px 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 0 30px 0 30px;
+}
+
+
+.list-image {
+    width: 10%;
+    float: left;
+    margin: 50px 20px 50px 50px;
+}
+
+.topic-name {
+    float: left;
+    width: 300px;
+    height: 150px;
+    margin: 50px 50px 50px 20px;
 }
