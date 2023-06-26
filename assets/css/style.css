@@ -48,7 +48,6 @@ p {
     line-height: 2;
 }
 
-
 #logo {
     float: left;
     font-size: 300%;
@@ -185,15 +184,36 @@ p {
 
 }
 
+.scroll-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.scroll-btn a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+    font-size: 130%;
+    letter-spacing: 4px;
+}
+
+.scroll-btn a:hover {
+    background-color: rgb(211, 183, 183, 0.4);
+    border-radius: 12px;
+    padding: 10px;
+}
+
 hr {
     display: block;
     height: 2px;
     border: 0;
     border-top: 2px solid #ccc;
-    margin: 0;
+    margin: 50px 0 0 0;
     padding: 0;
 }
-
 
 .social-networks {
     display: flex;
