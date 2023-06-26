@@ -29,13 +29,13 @@ h2 {
 
 h2 {
     text-align: center;
-    font-size: 300%;
+    font-size: 230%;
     margin: 50px 0 50px 0;
 }
 
 h3 {
     text-align: left;
-    font-size: 190%;
+    font-size: 170%;
 
 }
 
@@ -44,7 +44,7 @@ p {
     text-align: center;
     margin: 0;
     padding: 1.5rem;
-    font-size: 170%;
+    font-size: 150%;
     line-height: 2;
 }
 
