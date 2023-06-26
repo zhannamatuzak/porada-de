@@ -34,8 +34,8 @@ h2 {
 }
 
 h3 {
-    text-align: center;
-    font-size: 200%;
+    text-align: left;
+    font-size: 190%;
 
 }
 
@@ -84,6 +84,8 @@ p {
     padding: 10px;
 }
 
+/* Styling button */
+
 .button {
     border: 2px solid black;
     border-radius: 12px;
@@ -96,7 +98,6 @@ p {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
 }
 
 #justice {
@@ -110,7 +111,6 @@ p {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
-
 
 /* creates a level of zoom for hero image */
 
@@ -142,54 +142,52 @@ p {
     display: grid;
     background-color: rgb(67, 212, 171, 0.2);
     grid-template-columns: repeat(2, 1fr);
-    padding: 70px 25px 50px 25px;
+    padding: 50px 25px 50px 25px;
     margin-left: 80px;
     margin-right: 80px;
     border-radius: 0 30px 0 30px;
 }
 
-
+/* The idea of the list image is from Code Institute website */
 
 .list-image {
-    width: 100px;
-    height: 100px;
-    aspect-ratio: auto 100 / 100;
+    width: 80px;
+    height: 80px;
+    aspect-ratio: auto 80 / 80;
     float: left;
-    margin: 50px 20px 50px 50px;
+    margin: 50px 50px 50px 50px;
 }
 
 .topic-name {
-    float: center;
-    width: 450px;
-    height: 170px;
-    margin: 50px 50px 50px 20px;
+    width: 100%;
+    height: 100%;
+    margin: 50px 50px 50px 0px;
 }
-
 
 /* Video project section*/
 
 #video-gallery-grid {
     display: grid;
+    gap: 34px;
     grid-template-columns: repeat(4, 1fr);
     margin-left: 80px;
     margin-right: 80px;
-    padding-right: 0;
-    padding-bottom: 50px;
-
+    padding: 0 0 50px 0;
 }
 
 .frame {
     position: relative;
-    padding-bottom: 20px;
-
+    padding: 0 0 0 0;
+    margin: 0;
 }
+
+/* Styling scroll on top button */
 
 .scroll-btn {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin: 0 80px 0 80px;
 }
 
 .scroll-btn a {
@@ -198,6 +196,7 @@ p {
     padding: 10px;
     font-size: 130%;
     letter-spacing: 4px;
+    margin: 0;
 }
 
 .scroll-btn a:hover {
@@ -206,12 +205,14 @@ p {
     padding: 10px;
 }
 
+/* Styling footer */
+
 hr {
     display: block;
     height: 2px;
     border: 0;
     border-top: 2px solid #ccc;
-    margin: 50px 0 0 0;
+    margin: 50px 80px 0 80px;
     padding: 0;
 }
 
@@ -223,20 +224,15 @@ hr {
     list-style: none;
 }
 
-
 .social-networks i {
     color: #2d69d2;
     font-size: 32px;
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-left: 16 px;
-    padding-bottom: 50px;
+    padding: 50px 16px;
+    margin: 0;
 }
 
 .social-networks i:hover {
     color: #D3B7B7;
-}
-
 }
 
 /* Media */
@@ -257,5 +253,3 @@ hr {
     }
 
     .list-image {}
-
-}
