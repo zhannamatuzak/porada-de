@@ -48,6 +48,7 @@ p {
     line-height: 2;
 }
 
+
 #logo {
     float: left;
     font-size: 300%;
@@ -60,6 +61,7 @@ p {
     font-size: 130%;
     letter-spacing: 4px;
     margin-right: 80px;
+
 }
 
 #menu,
@@ -233,6 +235,23 @@ hr {
 
 .social-networks i:hover {
     color: #D3B7B7;
+}
+
+.team-info {
+    margin-top: 50px;
+}
+
+/* Styling about.html file */
+
+.team-info {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.card-name {
+    text-align: center;
+    margin: 0 0 50px 0;
 }
 
 /* Media */
