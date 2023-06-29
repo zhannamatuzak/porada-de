@@ -360,9 +360,24 @@ footer {
     flex: column;
     min-width: 8rem;
     max-width: 30rem;
-    margin: 50px auto 50px auto;
+    margin: 30px auto 50px auto;
     background-color: rgb(211, 183, 183, 0.4);
     border-radius: 4px;
+}
+
+.form-p {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    font-size: 120%;
+    line-height: 24px;
+}
+
+.form-p-container {
+    width: 100%;
+    margin: 0 auto 30px auto;
+    ;
 }
 
 .label-hidden {
@@ -373,6 +388,15 @@ footer {
     display: flex;
     flex-wrap: wrap;
     margin: 50px;
+}
+
+.form-text {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1.5rem;
+    font-size: 100%;
+    line-height: 2;
 }
 
 .form-area {
@@ -447,5 +471,3 @@ select {
         width: 200px;
         height: 100px;
     }
-
-    .list-image {}
