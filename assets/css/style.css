@@ -404,17 +404,31 @@ footer {
     box-shadow: 1px 1px gray;
 }
 
-
-
 option {
     font-size: 15px;
     word-wrap: break-word;
     font-weight: normal;
-
 }
 
 select {
     word-wrap: normal;
+}
+
+/* Styling submit button */
+
+.submit-btn-flex {
+    display: flex;
+    width: 100%;
+}
+
+.submit-btn {
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(67, 212, 171, 0.4);
+    padding: 16px 24px 16px 24px;
+    font-size: 18px;
+    border-radius: 4px;
+    box-shadow: 1px 1px gray;
 }
 
 /* Media */
