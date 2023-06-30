@@ -473,10 +473,13 @@ select {
 }
 
 /* Media */
-/* Topics list subsection */
+
 /* Media for screen sizes from 1090px wide and down */
 
 @media screen and (max-width: 1090px) {
+
+    /* Topics list subsection */
+
     .topics-list {
         padding: 25px 12px 25px 12px;
         margin-left: 30px;
@@ -512,6 +515,8 @@ select {
         letter-spacing: 2px;
     }
 
+    /* Project description subsection */
+
     .description-box {
         margin: 0 30px 0 30px;
     }
@@ -521,7 +526,10 @@ select {
         font-size: 120%;
         line-height: 1.5;
     }
+ /* Logo */
 
-
-
+    #logo {
+        font-size: 200%;
+        margin-left: 40px;
+    }
 }
