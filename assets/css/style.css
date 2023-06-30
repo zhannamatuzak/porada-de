@@ -526,10 +526,21 @@ select {
         font-size: 120%;
         line-height: 1.5;
     }
- /* Logo */
+
+    /* Logo */
 
     #logo {
         font-size: 200%;
         margin-left: 40px;
+    }
+
+    /* Main image */
+
+    #justice {
+        height: 500px;
+    }
+
+    #justice-outer {
+        height: 500px;
     }
 }
