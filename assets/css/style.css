@@ -135,7 +135,6 @@ header {
 #menu a:hover {
     background-color: rgb(211, 183, 183, 0.4);
     border-radius: 12px;
-
 }
 
 /* Styling button */
@@ -441,7 +440,7 @@ footer {
 }
 
 .form-select {
-    width: 50%;
+    width: 65%;
     padding: 16px 24px 16px 16px;
     margin-bottom: 16px;
     border-right: 16px solid transparent;
@@ -465,10 +464,10 @@ select {
 .submit-btn-flex {
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 .submit-btn {
-    display: inline-block;
     text-align: center;
     background-color: rgb(67, 212, 171, 0.4);
     padding: 16px 24px 16px 24px;
@@ -476,7 +475,6 @@ select {
     border-radius: 4px;
     box-shadow: 1px 1px gray;
 }
-
 
 /* Media */
 
@@ -551,7 +549,7 @@ select {
     }
 }
 
-/* Media for screen sizes from 1090px wide and down */
+/* Media for screen sizes from 1139px wide and down */
 
 @media screen and (max-width: 1139px) {
 
@@ -566,14 +564,35 @@ select {
         flex-direction: column;
     }
 
+    #menu li {
+        text-align: center;
+    }
+
     #menu,
     #logo {
-        line-height: 30px;
-        margin: 30px 0 20px 50px;
+        line-height: 40px;
+
+    }
+
+    #menu {
+        width: 100%;
+        margin: 0 20px 20px 0;
     }
 
     #logo {
         font-size: 250%;
+        margin: 30px 20px 20px 0;
+    }
+
+    #logo-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #menu a:hover {
+        background-color: rgb(211, 183, 183, 0.4);
+        border-radius: 10px;
+
     }
 }
 
