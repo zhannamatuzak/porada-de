@@ -387,7 +387,7 @@ footer {
     width: 100%;
     position: relative;
     display: flex;
-    flex: column;
+    flex-direction: column;
     min-width: 8rem;
     max-width: 30rem;
     margin: 30px auto 50px auto;
@@ -476,6 +476,17 @@ select {
     justify-content: center;
 }
 
+/* Styling Response page */
+
+.respose {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+
 .submit-btn {
     text-align: center;
     background-color: rgb(67, 212, 171, 0.4);
@@ -490,6 +501,39 @@ select {
 /* Media for screen sizes from 1090px wide and down */
 
 @media screen and (max-width: 1090px) {
+
+    /* Logo */
+
+    #logo {
+        font-size: 200%;
+        margin-left: 40px;
+    }
+
+    /* Main image */
+
+    #justice {
+        height: 500px;
+    }
+
+    #justice-outer {
+        height: 500px;
+    }
+
+    /* Project description subsection */
+
+
+    h2 {
+        text-align: center;
+        font-size: 190%;
+        margin: 25px 0 25px 0;
+        letter-spacing: 2px;
+    }
+
+    p {
+        padding: 1rem;
+        font-size: 120%;
+        line-height: 1.5;
+    }
 
     /* Topics list subsection */
 
@@ -517,38 +561,6 @@ select {
         width: 100%;
         height: 100%;
         justify-content: center;
-    }
-
-    h2 {
-        text-align: center;
-        font-size: 190%;
-        margin: 25px 0 25px 0;
-        letter-spacing: 2px;
-    }
-
-    /* Project description subsection */
-
-    p {
-        padding: 1rem;
-        font-size: 120%;
-        line-height: 1.5;
-    }
-
-    /* Logo */
-
-    #logo {
-        font-size: 200%;
-        margin-left: 40px;
-    }
-
-    /* Main image */
-
-    #justice {
-        height: 500px;
-    }
-
-    #justice-outer {
-        height: 500px;
     }
 }
 
