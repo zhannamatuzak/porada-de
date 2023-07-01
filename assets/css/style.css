@@ -177,9 +177,18 @@ header {
     }
 }
 
+/* Styling project ethos */
+
+#project-ethos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Description box */
 
 .description-box {
+    width: 75%;
     background-color: rgb(211, 183, 183, 0.4);
     box-sizing: border-box;
     margin-left: 80px;
@@ -521,10 +530,6 @@ select {
     }
 
     /* Project description subsection */
-
-    .description-box {
-        margin: 0 30px 0 30px;
-    }
 
     p {
         padding: 1rem;
