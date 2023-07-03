@@ -71,12 +71,15 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
 - [GitHub](https://github.com/) was used to host the code of the website.
 - [Birme](https://www.birme.net/) was used to resize Main image on the landing page.
 - [Square my Image](https://squaremyimage.com/) was used to resize co-founder images to a square on the About page.
-- [Square my Image](https://www.iloveimg.com/) and [Canva](https://www.canva.com/) was used to adopt images for READ.md file.
+- [Square my Image](https://www.iloveimg.com/) and [Canva](https://www.canva.com/) was used to adopt images for README.md file.
 - [WenMart](https://www.webmart.de/) was used to find a second suitable color to my already picked color.
 
 ## Design
 
-### Color Scheme
+### Color
+
+
+
 
 ### Typography
 
