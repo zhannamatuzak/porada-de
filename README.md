@@ -1,39 +1,82 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Porada-de
 
-Welcome,
+Porada-de is a site that provides information about the project “Porada-de” for Ukrainians in Germany. The site will be targeted toward refugees and emigrants who are looking for advice about the Germany legal and bureaucratic system. This site will be useful for those who want to join the team, to collaborate, or to donate.
+![Responsice Mockup](https://)
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## User Flow
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+## Features 
 
-## Codeanywhere Reminders
+### Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- __Logo and Navigation Bar__
 
-`python3 -m http.server`
+- __The landing page image__
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- __Club Ethos Section__
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- __Video Project Section__
 
-`http_server`
+- __Scroll on top button__ 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- __The Footer__ 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- __Team Information__ 
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- __Contact Form__ 
 
-To log into the Heroku toolbelt CLI:
+### Features Left to Implement
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Testing 
 
----
+## Technologies Used
 
-Happy coding!
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items on the pages and to make them responsive.
+- [Balsamiq](https://balsamiq.com/) was used to make wireframes for the website.
+- [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
+- [Git](https://git-scm.com/) was used for the version control of the website.
+- [GitHub](https://github.com/) was used to host the code of the website.
+- [Birme](https://www.birme.net/) was used to resize Main image on the landing page.
+- [Square my Image](https://squaremyimage.com/) was used to resize co-founder images to a square on the About page.
+- [Square my Image](https://www.iloveimg.com/) and [Canva](https://www.canva.com/) was used to adopt images for READ.md file.
+- [WenMart](https://www.webmart.de/) was used to find a second suitable color to my already picked color.
+
+## Design
+
+### Color Scheme
+
+### Typography
+
+### Wireframes
+
+#### Mobile devices
+
+#### Tablets
+
+#### Desktop
+
+## Testing
+
+### Validator Testing 
+
+### Manual testing
+
+### Fixed Bugs
+
+### Unfixed Bugs
+
+## Deployment
+
+## Local Deployment
+
+## Credits 
+
+### Content 
+
+### Media
+
+## Other General Project Advice
