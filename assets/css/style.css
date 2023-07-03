@@ -264,7 +264,7 @@ p a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 80px 50px 80px;
+    margin: 0 0 50px 0;
 }
 
 .scroll-btn a {
@@ -334,7 +334,7 @@ footer {
 }
 
 .card {
-    margin: 50px auto;
+    margin: 50px auto 0 auto;
     border-radius: 8px;
 }
 
@@ -348,7 +348,6 @@ footer {
     border-radius: 50%;
     margin: 0 auto;
     background: rgb(211, 183, 183, 0.4);
-
 }
 
 .first-cover-bg {
@@ -376,7 +375,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 80px 50px 80px;
+    margin: 0 0 50px 0;
 }
 
 .facebook-btn a {
@@ -388,7 +387,6 @@ footer {
     background-color: #2d69d2;
     color: white;
     text-align: center;
-
 }
 
 /* Styling form.html */
@@ -562,7 +560,6 @@ select {
     p {
         padding: 1rem;
         font-size: 120%;
-        line-height: 1.5;
     }
 
     /* Topics list subsection */
