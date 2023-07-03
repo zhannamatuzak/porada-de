@@ -59,8 +59,7 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
 
 ![Navbar and Logo for tablets Tablets](documentation/navbar-logo-tablet.png)
 
-  * On mobile devices screens: 
-- navigation bar and logo look the same as on the tablet screens.
+  * On mobile devices screens, navigation bar and logo look the same as on the tablet screens.
 
 - __The landing page image__
 
@@ -78,8 +77,11 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
 
 ### Features Left to Implement
 
-- The About page to be improved by adding photos and personal information of team members. The team members are already asked to prepare photos and descriptions about themselves. As the page About Us has the aim to attract the new team members, it should be more attractive and have more personal information.
+- The About page will be improved by adding photos and personal information of all team members. The team members are already asked to prepare photos and descriptions about themselves. As the page About Us has the aim to attract the new team members, it should be more appealing and contain personal information and the information of all team members.
 
+- The form on Contact page will be improved as well. It should be added one more box with a dropdown list with predefined topic options. The reason for this is to give options for possible decisions: to “join", “to collaborate”, “to ask a general question”, “to ask a specific question”. It is not integrated yet because it is not discussed with all team members.
+
+- Also the Facebook Community page should be added. It could be very useful because the [Facebook community](https://www.facebook.com/groups/642363020399443) is closed and to become a member the person has to meet certain criteria. 
 
 ## Technologies and Tools Used
 
