@@ -1,6 +1,7 @@
 # Porada-de
 
 Porada-de is a site that provides information about the project “Porada-de” for Ukrainians in Germany. The site will be targeted toward refugees and emigrants who are looking for advice about the Germany legal and bureaucratic system. This site will be useful for those who want to join the team, to collaborate, or to donate.
+
 ![Responsice Mockup](https://)
 
 ## User Flow
@@ -40,7 +41,26 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
 
 ### Existing Features
 
-- __Logo and Navigation Bar__
+- __Navigation Bar and Logo__
+
+- Navigation bar and Logo are positioned at the top of the page and placed in header.
+- Logo of the poroject is on the left side of the header.
+- Navigation bar is on the right side of the header. It contains navigation links. These are:
+  * Home - leads to the home page, where users can learn about the project Porada-de.
+  * About Us - leads to the about page, where users can find information about the  co-founders.    
+  * Contact - leads to the contact form page, where users can fill out the form in order to become a part of team or to collaborate.
+- The links have a hover effect.
+- The navigation is clear and easy to understand for the user.
+
+![Navbar and Logo](documentation/navbar-logo.png)
+
+- The navigation bar and Logo are responsive:
+  * On tablet screens: navigation bar and logo organise a column, where all elements are centered.
+
+![Navbar and Logo for tablets Tablets](documentation/navbar-logo-tablet.png)
+
+  * On mobile devices screens: 
+- navigation bar and logo look the same as on the tablet screens.
 
 - __The landing page image__
 
@@ -58,7 +78,8 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
 
 ### Features Left to Implement
 
-- 
+- The About page to be improved by adding photos and personal information of team members. The team members are already asked to prepare photos and descriptions about themselves. As the page About Us has the aim to attract the new team members, it should be more attractive and have more personal information.
+
 
 ## Technologies and Tools Used
 
@@ -78,22 +99,20 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
 
 ### Color
 
-![Website-colors](documentation/website-colors.png)
-
 - The two colors were used to design this website. The reason is that it is recommended for non-designers to use no more than two colors.
 
 - Clam Shell color was used to hoover navigation bar links,social media links and scroll on top button, as a background for project Description subsection, form section, and Response section.
 
 - Shamrock color was used to design header, footer, background of topic list subsection, and Submit button.
 
+![Website-colors](documentation/website-colors.png)
+
+The usage of two colors could be boring for some visitors and they could leave the website. In order to keep up the user motivation and to improve use experiences, the modest background pattern was used.
+
 ![Main-background](documentation/main-background.png)
 
-The usage of two colors could be boring for some visitor and they could leave the website. In order to keep up the user motivation and to improve use experiences, the modest and attention-grabbing background pattern was used.
-
-The Subtle Gradient Pattern Background for the main was used from the [freefrontend](https://freefrontend.com/css-background-patterns/). Code is [here](https://codepen.io/chris22smith/pen/pGNVwZ) 
-
-
-
+The Subtle Gradient Pattern Background for the main was used from the [freefrontend](https://freefrontend.com/css-background-patterns/). 
+The code is to find [here](https://codepen.io/chris22smith/pen/pGNVwZ) 
 
 ### Typography
 
