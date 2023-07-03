@@ -78,6 +78,20 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
 
 ### Color
 
+![Website-colors](documentation/website-colors.png)
+
+- The two colors were used to design this website. The reason is that it is recommended for non-designers to use no more than two colors.
+
+- Clam Shell color was used to hoover navigation bar links,social media links and scroll on top button, as a background for project Description subsection, form section, and Response section.
+
+- Shamrock color was used to design header, footer, background of topic list subsection, and Submit button.
+
+![Main-background](documentation/main-background.png)
+
+The usage of two colors could be boring for some visitor and they could leave the website. In order to keep up the user motivation and to improve use experiences, the modest and attention-grabbing background pattern was used.
+
+The Subtle Gradient Pattern Background for the main was used from the [freefrontend](https://freefrontend.com/css-background-patterns/). Code is [here](https://codepen.io/chris22smith/pen/pGNVwZ) 
+
 
 
 
