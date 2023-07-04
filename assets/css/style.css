@@ -628,6 +628,10 @@ select {
         height: 330px;
     }
 
+    .card {
+        margin: 30px auto 0 auto;
+    }
+
     .card-form {
         width: 90%;
     }
