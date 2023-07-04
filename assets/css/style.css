@@ -8,6 +8,11 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+/* Global Settings */
 body {
     font-family: Source-Sans-3, serif;
     font-weight: 300;
@@ -19,7 +24,6 @@ body {
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
-
 }
 
 main {
@@ -36,7 +40,6 @@ main {
 }
 
 /* Headings paragraphs and Logo */
-
 h1,
 h2 {
     font-family: Oswald, sans-serif;
@@ -71,6 +74,7 @@ p {
     line-height: 2;
 }
 
+/* Styling index.html file */
 header {
     width: 100%;
     display: flex;
@@ -87,7 +91,6 @@ header {
 }
 
 /* Navigation links */
-
 #menu {
     width: 50%;
     display: flex;
@@ -132,14 +135,12 @@ header {
 }
 
 /* Styling button */
-
 .button {
     border: 2px solid #B8B8B8;
     border-radius: 12px;
 }
 
 /* justice image */
-
 #justice-outer {
     height: 600px;
     width: 100%;
@@ -154,20 +155,16 @@ header {
     height: 600px;
     width: 100%;
     background: url(../images/justice.jpg) no-repeat center center;
-
     /*animates zoom effect on loading page */
-
     animation-name: justice-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
 /* creates a level of zoom for hero image */
-
 @keyframes justice-zoom {
     from {
         transform: scale(1);
-
     }
 
     to {
@@ -176,7 +173,6 @@ header {
 }
 
 /* Styling project ethos */
-
 #project-ethos {
     display: flex;
     flex-direction: column;
@@ -184,7 +180,6 @@ header {
 }
 
 /* Description box */
-
 .description-box {
     width: 75%;
     background-color: rgb(211, 183, 183, 0.4);
@@ -201,7 +196,6 @@ p a {
 }
 
 /* Topics list grid subsection */
-
 .topics-list {
     width: 90%;
     display: grid;
@@ -212,7 +206,6 @@ p a {
 }
 
 /* The idea of the list image is from Code Institute website */
-
 .list-image {
     width: 80px;
     height: 80px;
@@ -235,7 +228,6 @@ p a {
 }
 
 /* Video project section*/
-
 #video-gallery-flex {
     display: flex;
     flex-wrap: wrap;
@@ -253,7 +245,6 @@ p a {
 }
 
 /* Styling scroll on top button */
-
 .scroll-btn {
     display: flex;
     justify-content: center;
@@ -277,7 +268,6 @@ p a {
 }
 
 /* Styling footer */
-
 footer {
     display: flex;
     justify-content: center;
@@ -310,7 +300,8 @@ footer {
 
 /* Styling about.html file */
 /* Team information */
-
+/* The inspiration for design is Love-running project
+and Project 1 – EtchPad by Daryl Ando*/
 .team-info {
     display: flex;
     flex-direction: column;
@@ -364,7 +355,6 @@ footer {
 }
 
 /* Styling Facebook button */
-
 .facebook-btn {
     display: flex;
     justify-content: center;
@@ -384,7 +374,6 @@ footer {
 }
 
 /* Styling form.html */
-
 .card-form {
     width: 100%;
     position: relative;
@@ -450,8 +439,14 @@ footer {
     box-shadow: 1px 1px gray;
 }
 
+textarea {
+    height: 15rem;
+    resize: vertical;
+}
+
+/* The idea of form-select comes from Project 1 – EtchPad by Daryl Ando */
 .form-select {
-    width: 65%;
+    width: 75%;
     padding: 16px 24px 16px 16px;
     margin-bottom: 16px;
     border-right: 16px solid transparent;
@@ -471,7 +466,6 @@ select {
 }
 
 /* Styling submit button */
-
 .submit-btn-flex {
     display: flex;
     width: 100%;
@@ -488,7 +482,6 @@ select {
 }
 
 /* Styling Response page */
-
 .response-container {
     display: flex;
     flex-direction: column;
@@ -519,20 +512,59 @@ select {
 
 
 /* Media */
+/* Media for screen sizes from 1139px wide and down */
+@media screen and (max-width: 1139px) {
+
+    /* Styling header */
+    header {
+        flex-direction: column;
+        align-items: unset;
+    }
+
+    #menu ul {
+        flex-direction: column;
+    }
+
+    #menu li {
+        text-align: center;
+    }
+
+    #menu,
+    #logo {
+        line-height: 40px;
+    }
+
+    #menu {
+        width: 100%;
+        margin: 0 20px 20px 0;
+    }
+
+    #logo {
+        font-size: 250%;
+        margin: 30px 20px 20px 0;
+    }
+
+    #logo-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #menu a:hover {
+        background-color: rgb(211, 183, 183, 0.4);
+        border-radius: 10px;
+    }
+}
 
 /* Media for screen sizes from 1090px wide and down */
-
 @media screen and (max-width: 1090px) {
 
     /* Logo */
-
     #logo {
         font-size: 200%;
         margin-left: 40px;
     }
 
     /* Main image */
-
     #justice {
         height: 500px;
     }
@@ -542,8 +574,6 @@ select {
     }
 
     /* Project description subsection */
-
-
     h2 {
         text-align: center;
         font-size: 190%;
@@ -557,7 +587,6 @@ select {
     }
 
     /* Topics list subsection */
-
     .topics-list {
         padding: 25px 12px 25px 12px;
         border-radius: 0 30px 0 30px;
@@ -585,54 +614,7 @@ select {
     }
 }
 
-/* Media for screen sizes from 1139px wide and down */
-
-@media screen and (max-width: 1139px) {
-
-    /* Styling header */
-
-    header {
-        flex-direction: column;
-        align-items: unset;
-    }
-
-    #menu ul {
-        flex-direction: column;
-    }
-
-    #menu li {
-        text-align: center;
-    }
-
-    #menu,
-    #logo {
-        line-height: 40px;
-
-    }
-
-    #menu {
-        width: 100%;
-        margin: 0 20px 20px 0;
-    }
-
-    #logo {
-        font-size: 250%;
-        margin: 30px 20px 20px 0;
-    }
-
-    #logo-container {
-        display: flex;
-        justify-content: center;
-    }
-
-    #menu a:hover {
-        background-color: rgb(211, 183, 183, 0.4);
-        border-radius: 10px;
-    }
-}
-
 /* Media for Co-founders information */
-
 @media screen and (max-width: 900px) {
     .card-circle-container {
         width: 400px;
@@ -642,7 +624,11 @@ select {
 
 @media screen and (max-width: 500px) {
     .card-circle-container {
-        width: 350px;
-        height: 350px;
+        width: 330px;
+        height: 330px;
+    }
+
+    .card-form {
+        width: 90%;
     }
 }
