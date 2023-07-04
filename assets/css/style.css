@@ -69,7 +69,7 @@ p {
     display: block;
     text-align: center;
     margin: 0 auto;
-    padding: 0.5rem;
+    padding: 0.5rem 2rem;
     font-size: 140%;
     line-height: 2;
 }
@@ -195,6 +195,10 @@ p a {
     color: #175d9b;
 }
 
+p a:hover {
+    color: #1fb0f5;
+}
+
 /* Topics list grid subsection */
 .topics-list {
     width: 90%;
@@ -207,11 +211,11 @@ p a {
 
 /* The idea of the list image is from Code Institute website */
 .list-image {
-    width: 80px;
-    height: 80px;
-    aspect-ratio: auto 80 / 80;
+    width: 50px;
+    height: 50px;
+    aspect-ratio: auto 50 / 50;
     float: left;
-    margin: 50px 50px 50px 50px;
+    margin: 25px 25px 25px 35px;
 }
 
 .topic-name {
@@ -634,5 +638,17 @@ select {
 
     .card-form {
         width: 90%;
+    }
+
+    .topic-name {
+        font-size: 100%;
+        text-align: center;
+        margin: 15px 15px 15px 15px;
+    }
+
+    .list-image {
+        width: 30px;
+        height: 30px;
+        aspect-ratio: auto 30 / 30;
     }
 }
