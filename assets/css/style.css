@@ -301,7 +301,6 @@ footer {
     color: #D3B7B7;
 }
 
-
 /* Styling about.html file */
 /* Team information */
 /* The inspiration for design is Love-running project
@@ -375,6 +374,10 @@ and Project 1 – EtchPad by Daryl Ando*/
     background-color: #2d69d2;
     color: white;
     text-align: center;
+}
+
+.facebook-btn a:hover {
+    background-color: #1fb0f5;
 }
 
 /* Styling form.html */
@@ -627,6 +630,8 @@ select {
 }
 
 @media screen and (max-width: 500px) {
+
+    /* Medea for */
     .card-circle-container {
         width: 330px;
         height: 330px;
@@ -640,6 +645,7 @@ select {
         width: 90%;
     }
 
+    /* Media for Topics list subsection */
     .topic-name {
         font-size: 100%;
         text-align: center;
