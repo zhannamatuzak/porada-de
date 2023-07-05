@@ -575,56 +575,54 @@ select {
         margin: 20px 20px 20px 20px;
     }
 
-}
+    /* Main image */
+    #justice {
+        height: 500px;
+    }
 
-/* Main image */
-#justice {
-    height: 500px;
-}
+    #justice-outer {
+        height: 500px;
+    }
 
-#justice-outer {
-    height: 500px;
-}
+    /* Project description subsection */
+    h2 {
+        text-align: center;
+        font-size: 190%;
+        margin: 25px 0 25px 0;
+        letter-spacing: 2px;
+    }
 
-/* Project description subsection */
-h2 {
-    text-align: center;
-    font-size: 190%;
-    margin: 25px 0 25px 0;
-    letter-spacing: 2px;
-}
+    p {
+        padding: 1rem;
+        font-size: 120%;
+    }
 
-p {
-    padding: 1rem;
-    font-size: 120%;
-}
+    /* Topics list subsection */
+    .topics-list {
+        padding: 25px 12px 25px 12px;
+        border-radius: 0 30px 0 30px;
+    }
 
-/* Topics list subsection */
-.topics-list {
-    padding: 25px 12px 25px 12px;
-    border-radius: 0 30px 0 30px;
-}
+    .topic-name {
+        font-size: 120%;
+        text-align: center;
+        margin: 15px 15px 15px 15px;
+    }
 
-.topic-name {
-    font-size: 120%;
-    text-align: center;
-    margin: 15px 15px 15px 15px;
-}
+    .list-image {
+        width: 40px;
+        height: 40px;
+        aspect-ratio: auto 40 / 40;
+        margin: 15px 15px 15px 15px;
+    }
 
-.list-image {
-    width: 40px;
-    height: 40px;
-    aspect-ratio: auto 40 / 40;
-    margin: 15px 15px 15px 15px;
-}
-
-.topic {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-}
+    .topic {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
 }
 
 /* Media for Co-founders information */
