@@ -56,6 +56,7 @@ h2 {
 h3 {
     text-align: left;
     font-size: 170%;
+    line-height: 1.5;
 }
 
 h4 {
@@ -326,6 +327,7 @@ and Project 1 – EtchPad by Daryl Ando*/
 }
 
 .card {
+    width: 100%;
     margin: 50px auto 0 auto;
     border-radius: 8px;
 }
@@ -382,6 +384,7 @@ and Project 1 – EtchPad by Daryl Ando*/
 
 .facebook-btn a:hover {
     background-color: #1fb0f5;
+    padding: 10px;
 }
 
 /* Styling form.html */
