@@ -129,6 +129,7 @@ header {
     width: 100%;
 }
 
+/* Hover for menu links */
 #menu a:hover {
     background-color: rgb(211, 183, 183, 0.4);
     border-radius: 12px;
@@ -195,6 +196,7 @@ p a {
     color: #175d9b;
 }
 
+/* Hover for Soliduarity.e.V. link */
 p a:hover {
     color: #1fb0f5;
 }
@@ -265,6 +267,7 @@ p a:hover {
     margin: 0;
 }
 
+/* Hover for scroll-btn */
 .scroll-btn a:hover {
     background-color: rgb(211, 183, 183, 0.4);
     border-radius: 12px;
@@ -297,6 +300,7 @@ footer {
     margin: 0;
 }
 
+/* Hover social networks */
 .social-networks i:hover {
     color: #D3B7B7;
 }
