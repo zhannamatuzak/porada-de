@@ -4,7 +4,7 @@ Porada-de is a site that provides information about the project “Porada-de” 
 
 ![Responsice Mockup](documentation/responsive-mockup.png)
 
-The site can be accessed by this [link]()
+The site can be accessed by this [link](https://zhannamatuzak.github.io/porada-de/index.html)
 
 ## User Flow
 
@@ -46,7 +46,7 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
 - __Navigation Bar and Logo__
 
 - Navigation bar and Logo are positioned at the top of the page and placed in the header.
-- Logo of the project is on the left side of the header. It is the word Porada-de which begins with the capital letter and then contains the lowercase letters. There is a scales symbol as well shown on the favicon. The scales symbol is a part of the logo. It is not to see this symbol in the header for design reasons. The main reason is that the scales are already on the main page. This idea is borrowed from the Code Institute website.
+- Logo of the project is on the left side of the header. It is the word Porada-de which begins with the capital letter and then contains the lowercase letters. There is a scales symbol as well shown on the favicon. The scales symbol is a part of the logo. It is not to see in the header for design reasons. The main reason is that the scales are already on the main image on Home page. This idea is borrowed from the Code Institute website.
 - Navigation bar is on the right side of the header. It contains navigation links. These are:
   * Home - leads to the Home page, where users can learn about the project Porada-de.
   * About Us - leads to the About page, where users can find information about the founders.    
