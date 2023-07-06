@@ -2,7 +2,7 @@
 
 Porada-de is a site that provides information about the project “Porada-de” for Ukrainians in Germany. This project is an existing project that started at the end of July 2022. The site will be targeted toward refugees and migrants who are looking for advice about the German legal and bureaucratic system. This site will be useful for those who want to join the team, collaborate, or donate. The project exists as a Facebook page, where the posts are published weekly and then discussed in our [Facebook community (group)](https://www.facebook.com/groups/642363020399443). The group has over 37 thousand members. The group grows dynamically and needs urgently more people to advise and write posts. That is why the main aim is to attract people who want to contribute to the project and, therefore, to the community.
 
-![Responsice Mockup](https://)
+![Responsice Mockup](documentation/responsive-mockup.png)
 
 ## User Flow
 
