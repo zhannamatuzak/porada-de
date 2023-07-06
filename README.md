@@ -88,8 +88,10 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
 
 - __The Footer__ 
 
-    * The Footer section includes four links to the relevant social media sites for Porada-de. The Facebook and Youtube links are existing links of the project. The links will open to a new tab to allow easy navigation for the user.
+    * The Footer section includes four links to the relevant social media sites for Porada-de. The Facebook and Youtube links are existing links to the project. The links will open to a new tab to allow easy navigation for the user.
     * The footer is valuable to the user as it encourages them to keep connected via social media.
+
+![Footer](documentation/footer-screenshot.png)
 
 
 
