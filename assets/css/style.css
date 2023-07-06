@@ -202,7 +202,7 @@ p a:hover {
     color: #1fb0f5;
 }
 
-/* Topics list grid subsection */
+/* Topics list subsection */
 .topics-list {
     width: 90%;
     display: grid;
@@ -380,6 +380,8 @@ and Project 1 – EtchPad by Daryl Ando*/
     background-color: #2d69d2;
     color: white;
     text-align: center;
+    box-shadow: 1px 1px gray;
+    border: none;
 }
 
 /* Adding hover for Facebook  button */
