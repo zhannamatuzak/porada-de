@@ -43,19 +43,20 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
 
 - __Navigation Bar and Logo__
 
-- Navigation bar and Logo are positioned at the top of the page and placed in header.
-- Logo of the poroject is on the left side of the header. It is the word Porada-de which begins with the capital letter and then contains the lower case letters. There is a scales symbol as well schown on the favicon. The scales symbol is a part of the logo. It is not to see this symbol in the header fo the design reasons. The main reason is that the scales are already on the main page. This idea is borrowed from the Code Institute website.
+- Navigation bar and Logo are positioned at the top of the page and placed in the header.
+- Logo of the project is on the left side of the header. It is the word Porada-de which begins with the capital letter and then contains the lowercase letters. There is a scales symbol as well shown on the favicon. The scales symbol is a part of the logo. It is not to see this symbol in the header for design reasons. The main reason is that the scales are already on the main page. This idea is borrowed from the Code Institute website.
 - Navigation bar is on the right side of the header. It contains navigation links. These are:
-  * Home - leads to the home page, where users can learn about the project Porada-de.
-  * About Us - leads to the about page, where users can find information about the  co-founders.    
-  * Contact - leads to the contact form page, where users can fill out the form in order to become a part of team or to collaborate.
-- The links have a hover effect.
+  * Home - leads to the Home page, where users can learn about the project Porada-de.
+  * About Us - leads to the About page, where users can find information about the founders.    
+  * Contact - leads to the contact form page, where users can fill out the form to become a part of a team or to collaborate.
+  * Donate - leads to the Donation page of our organization [Soliduarity e. V..](https://www.soliduarity.org/donate/). The Donate link has a heart icon and is designed like a button so the visitor understands that the link has an additional donate function.
+- The links have a hover effect. The color of the hover is the brand color of our project which is Clam Shell.
 - The navigation is clear and easy to understand for the user.
 
 ![Navbar and Logo](documentation/navbar-logo.png)
 
 - The navigation bar and Logo are responsive:
-  * On tablet screens: navigation bar and logo organise a column, where all elements are centered.
+  * On tablet screens: navigation bar and logo organize a column, where all elements are centered.
 
 ![Navbar and Logo for tablets Tablets](documentation/navbar-logo-tablet.png)
 
