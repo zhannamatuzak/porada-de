@@ -53,7 +53,7 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
   * Contact - leads to the contact form page, where users can fill out the form to become a part of a team or to collaborate.
   * Donate - leads to the Donation page of our organization [Soliduarity e. V..](https://www.soliduarity.org/donate/). The Donate link has a heart icon and is designed like a button so the visitor understands that the link has an additional donate function.
 * The links have a hover effect. The color of the hover is the brand color of our project which is Clam Shell.
-- The navigation is clear and easy to understand for the user.
+* The navigation is clear and easy to understand for the user.
 
 ![Navbar and Logo](documentation/navbar-logo.png)
 
@@ -64,24 +64,34 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
 
   * On mobile devices screens, navigation bar and logo look the same as on the tablet screens.
 
-- __The Landing page (Main image) image__
+- __The Landing Page (Main image) image__
 
-*The Main image represents the focus of the project that is the legal and bureaucratic system. The scales on it are a part of our logo. The member of our community recognize it because it is the cover image of the facebook page of the project.
+* The Main image represents the focus of the project which is the legal and bureaucratic system. The scales on it are a part of our logo. The members of our community recognize it because its design is very similar to the cover image of the Facebook page of the project.
 
 ![Main Image](assets/images/justice.jpg)
 
 - __Project Ethos Section__
 
-*The Project Ethos section will allow the user to learn about the project and its spectrum of topics. This should encourage the user to consider joining our Facebook community and help the members with advice. 
-* It consists of two subsections: Project description subsection and Topics list subsection.
+* The Project Ethos section will allow the user to learn about the project and its spectrum of topics. This should encourage the user to consider joining our Facebook community and help the members with advice. It has a link to the project's Organization.
+* It consists of two subsections: the project description and the topics list subsections.
 
 ![Project Ethos section](documentation/project-ethos-screenshot.png)
 
 - __Video Project Section__
 
-- __Scroll on top button__ 
+* The Video Project Section contains eight videos that are made by the team. This section will allow the user to see exactly what kinds of topics are covered on the videos.
+* This section will be updated as the new videos come in the course of time to keep the user up to date.
+
+- Is also has a button Scross on Top that directs to the beginning of Home page.
+​
+![Project Ethos section](documentation/video-project-screenshot.png)
 
 - __The Footer__ 
+
+    * The Footer section includes four links to the relevant social media sites for Porada-de. The Facebook and Youtube links are existing links of the project. The links will open to a new tab to allow easy navigation for the user.
+    * The footer is valuable to the user as it encourages them to keep connected via social media.
+
+
 
 - __Team Information__ 
 
@@ -110,6 +120,10 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
 - [WenMart](https://www.webmart.de/) was used to find a second suitable color to my already picked color.
 
 ## Design
+
+* The Design of this website is based on the design of the Facebook page of the project [Porada-de.](https://www.facebook.com/PoradaDE)
+
+![Design roots](documentation/facebook-page-design.png)
 
 ### Color
 
