@@ -4,6 +4,8 @@ Porada-de is a site that provides information about the project “Porada-de” 
 
 ![Responsice Mockup](documentation/responsive-mockup.png)
 
+The site can be accessed by this [link]()
+
 ## User Flow
 
 ### Users
