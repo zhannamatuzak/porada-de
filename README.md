@@ -1,6 +1,6 @@
 # Porada-de
 
-Porada-de is a site that provides information about the project “Porada-de” for Ukrainians in Germany. This project is an existing project that started at the end of July 2022. The site will be targeted toward refugees and migrants who are looking for advice about the German legal and bureaucratic system. This site will be useful for those who want to join the team, collaborate, or donate. The project exists as a Facebook page, where the posts are published weekly and then discussed in our [Facebook community](https://www.facebook.com/groups/642363020399443) (group). The group has over 37 thousand members. The group grows dynamically and needs urgently more people to advise and write posts. That is why the main aim is to attract people who want to contribute to the project and, therefore, to the community.
+Porada-de is a site that provides information about the project “Porada-de” for Ukrainians in Germany. This project is an existing project that started at the end of July 2022. The site will be targeted toward refugees and migrants who are looking for advice about the German legal and bureaucratic system. This site will be useful for those who want to join the team, collaborate, or donate. The project exists as a Facebook page, where the posts are published weekly and then discussed in our [Facebook community](https://www.facebook.com/groups/642363020399443) (group). The group has over 37 thousand members. The group grows dynamically and needs urgently more people to advise and write posts. That is why the main aim is to attract people who want to contribute to the project and, therefore, to the community. My friend Vira and I are founders of Porada-de project.
 
 ![Responsice Mockup](documentation/responsive-mockup.png)
 
@@ -114,14 +114,19 @@ This section is useful to the user as they will be able to easily contact the fo
 - It contains the "Thank you!" message.
 - It will automatically direct the user to the main page in 10 seconds.
 
-![  Response page](documentation/response-page-screenshot.jpeg)
+![Response page](documentation/response-page-screenshot.jpeg)
+
+- __Favicon__
+
+For favicon I used our project's [logo](favicon/apple-touch-icon.png) from the Facebook page.
+
 ### Features Left to Implement
 
-- The About page will be improved by adding photos and personal information of all team members. The team members are already asked to prepare photos and descriptions of themselves. As the page About Us has the aim to attract new team members, it should be more appealing and contain personal information and the information of all team members.
+- The About page will be improved by adding photos and personal information of all team members. The team members are already asked to prepare photos and descriptions about themselves. As the page About has the aim to attract new team members, it should be more appealing and contain personal information and the information of all team members.
 
 - The form on the Contact page will be improved as well. It should be added one more box with a dropdown list with predefined topic options. The reason for this is to give options for possible decisions: to “join", “to collaborate”, “to ask a general question”, or “to ask a specific question”. It is not integrated yet because it is not discussed with all team members.
 
-- Also the Facebook Community page should be added. It could be very useful because the [Facebook community](https://www.facebook.com/groups/642363020399443) is closed and to become a member the person has to meet certain criteria. 
+- Also the Facebook Community page should be added. It could be very useful because the [Facebook community](https://www.facebook.com/groups/642363020399443) is closed and to become a membe, a person has to meet certain criteria. 
 
 ## Technologies and Tools Used
 
@@ -140,7 +145,7 @@ This section is useful to the user as they will be able to easily contact the fo
 
 ## Design
 
-* The Design of this website is based on the design of the Facebook page of the project [Porada-de.](https://www.facebook.com/PoradaDE)
+* The Design of this website is based on the design of the Facebook page of the project [Porada-de.](https://www.facebook.com/PoradaDE). The design ideas belongs to the founders (to my friend Vira and me).
 
 ![Design roots](documentation/facebook-page-design.png)
 
@@ -180,15 +185,47 @@ The code is to find [here](https://codepen.io/chris22smith/pen/pGNVwZ)
 - [Contact Page. Tablet Screen](documentation/form-wireframe-tablet.png)
 
 #### Mobile devices
-* [Navbar and Logo for tablets Tablets](documentation/navbar-logo-tablet.png)
-
-#### Mobile devices
 
 - The wireframes for mobile devices are the same as for tablet screens.
 
 ## Testing
 
+### Devtools
+
+The website was checked by devtools implemented in Firefox and Chrome browsers.
+
+### Responsive viewer
+
+The website was checked with [Responsive viewer](https://responsivedesignchecker.com/) extension on the Chrome browser.
+
 ### Validator Testing 
+
+### HTML
+
+#### Home Page
+- No errors or warnings were found when passing through the official W3C validator.
+
+![Home Page HTML Validator](documentation/home-validator-html.jpeg)
+
+#### About Page
+- No errors or warnings were found when passing through the official W3C validator.
+
+![About Page HTML Validator](documentation/about-validator-html.jpeg)
+
+#### Contact Page
+- No errors or warnings were found when passing through the official W3C validator.
+
+  ![Contact Page HTML Validator](documentation/contact-validator-html.jpeg)
+
+#### Response Page
+- No errors or warnings were found when passing through the official W3C validator.
+
+![Response Page HTML Validator](documentation/response-validator-html.jpeg)
+
+### CSS
+No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
+
+![CSS Validator](documentation/css-validation.jpeg)
 
 ### Manual testing
 
@@ -224,18 +261,73 @@ The code is to find [here](https://codepen.io/chris22smith/pen/pGNVwZ)
 
 ### Accessibility and performance 
 
+- Using Lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
+
+ #### Home page
+
+  ![Home Page Lighthouse](documentation/home-lighthouse.png)
+
+  #### About page
+
+  ![Gallery Page Lighthouse](documentation/about-lighthouse.png)
+
+  #### Contact page
+
+  ![Contact Page Lighthouse](documentation/form-lighthouse.png)
+
+  #### Response page
+
+  ![Response Page Lighthouse](documentation/response-lighthouse.png)
+
 ### Fixed Bugs
 
+ 1. The header elements ware not responsive because it was used float.
+*Solution:* Instead of floats ware used flexbox and grid layouts.
+
+2. The elements chaged their positions.
+*Solution:* The parent element was given width and height.
+
+3. The videos from YouTube in the video project section ware not shown. 
+*Solution:* The embed links to videos ware copied on YouTube. 
+
 ### Unfixed Bugs
+None.
 
 ## Deployment
 
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/zhannamatuzak/porada-de), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch and click "save".
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://zhannamatuzak.github.io/porada-de/index.html 
+
 ## Local Deployment
+
+In order to make a local copy of this project, you can clone it.
+In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/zhannamatuzak/porada-de.git`
 
 ## Credits 
 
 ### Content 
 
+- The text for the Home page is my text.
+- The icons in the footer were taken from Font Awesome.
+- The inspiration for the design of the Project ethos section on Home page comes from [Code Institute](https://codeinstitute.net/de/) website.
+- The inspiration for the contact form comes from [Project 1 – EtchPad.](https://andodaryl.github.io/EtchPad/order.html) 
+- Inspiration for the footer comes from [Iuliia Konovalova](https://iuliiakonovalova.github.io/animal_shelter/) first project.
+
 ### Media
 
-## Other General Project Advice
+The main image and two tick images were taken from [Pixabay](https://pixabay.com/de/)
+
+1.[Justice image](https://pixabay.com/de/photos/die-gesetzlichen-gerechtigkeit-4926021/)
+2. [Red tock image](https://pixabay.com/de/vectors/pr%C3%BCfen-h%C3%A4kchen-rot-markierung-tick-303494/)
+ 3. [Green tick image](https://pixabay.com/de/photos/die-gesetzlichen-gerechtigkeit-4926021/)
+
+The images for the About page are photos of my friend Vira and me because we are the founders of the project.
+
+The YouTube videos are made by my team and me supported by organization Soliduarity e.V..
+
