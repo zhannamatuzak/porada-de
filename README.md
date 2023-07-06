@@ -98,11 +98,11 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
 * The Team Information Section will provide the user with information about the project's founders: their names and links to their Facebook profiles.
 This section is useful to the user as they will be able to easily contact the founders only by clicking on the Facebook button.
 
-*- It also has a button Scross on Top that directs to the beginning of About page.
+*- It also has a button Scross on Top that directs to the beginning of the About page.
 
 ![Team Information Section](documentation/team-information.png)
 
-- __Contact Form__ 
+- __Contact Form Section__ 
 
 * This page will allow the user to leave a message to the Porada-de team to join the team or to collaborate. The user will be asked to submit their name, state and email address.
 
@@ -110,9 +110,9 @@ This section is useful to the user as they will be able to easily contact the fo
 
 ### Features Left to Implement
 
-- The About page will be improved by adding photos and personal information of all team members. The team members are already asked to prepare photos and descriptions about themselves. As the page About Us has the aim to attract the new team members, it should be more appealing and contain personal information and the information of all team members.
+- The About page will be improved by adding photos and personal information of all team members. The team members are already asked to prepare photos and descriptions of themselves. As the page About Us has the aim to attract new team members, it should be more appealing and contain personal information and the information of all team members.
 
-- The form on Contact page will be improved as well. It should be added one more box with a dropdown list with predefined topic options. The reason for this is to give options for possible decisions: to “join", “to collaborate”, “to ask a general question”, “to ask a specific question”. It is not integrated yet because it is not discussed with all team members.
+- The form on the Contact page will be improved as well. It should be added one more box with a dropdown list with predefined topic options. The reason for this is to give options for possible decisions: to “join", “to collaborate”, “to ask a general question”, or “to ask a specific question”. It is not integrated yet because it is not discussed with all team members.
 
 - Also the Facebook Community page should be added. It could be very useful because the [Facebook community](https://www.facebook.com/groups/642363020399443) is closed and to become a member the person has to meet certain criteria. 
 
@@ -121,13 +121,14 @@ This section is useful to the user as they will be able to easily contact the fo
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
 - [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items on the pages and to make them responsive.
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - along with flext box was used to make Topics list subsection responsive.
 - [Balsamiq](https://balsamiq.com/) was used to make wireframes for the website.
 - [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
 - [Git](https://git-scm.com/) was used for the version control of the website.
 - [GitHub](https://github.com/) was used to host the code of the website.
 - [Birme](https://www.birme.net/) was used to resize Main image on the landing page.
 - [Square my Image](https://squaremyimage.com/) was used to resize co-founder images to a square on the About page.
-- [Square my Image](https://www.iloveimg.com/) and [Canva](https://www.canva.com/) was used to adopt images for README.md file.
+- [I love image](https://www.iloveimg.com/) and [Canva](https://www.canva.com/) was used to adopt images for README.md file.
 - [WenMart](https://www.webmart.de/) was used to find a second suitable color to my already picked color.
 
 ## Design
@@ -155,7 +156,26 @@ The code is to find [here](https://codepen.io/chris22smith/pen/pGNVwZ)
 
 ### Typography
 
+* Two fonts ware used in this project such as Oswald for the logo and heading 2 and Source-Sans-3 for the body elements. Oswald font is already used for titles of posters and presentations of Porada-de project. Source-Sans-3 was generated as a suitable font for Oswald.
+
 ### Wireframes
+
+#### Desktop
+
+- [Home Page. Desktop Screen](documentation/home-wireframe-desktop.png)
+- [About Page. Desktop Screen](documentation/about-wireframe-desktop.png)
+- [Contact Page. Desktop Screen](documentation/form-wireframe-desktop.png)
+
+#### Tablets
+
+- [Home Page. Tablet Screen](documentation/tablet_home_page.png)
+- [Gallery Page. Tablet Screen](documentation/tablet_gallery_page.png)
+- [Contact Page. Tablet Screen](documentation/tablet_contact_form_page.png)
+- [Response Page. Tablet Screen](documentation/tablet_response_page.png)
+
+#### Mobile devices
+* [Navbar and Logo for tablets Tablets](documentation/navbar-logo-tablet.png)
+
 
 #### Mobile devices
 
