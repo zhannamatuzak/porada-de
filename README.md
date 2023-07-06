@@ -168,26 +168,52 @@ The code is to find [here](https://codepen.io/chris22smith/pen/pGNVwZ)
 
 #### Tablets
 
-- [Home Page. Tablet Screen](documentation/tablet_home_page.png)
-- [Gallery Page. Tablet Screen](documentation/tablet_gallery_page.png)
-- [Contact Page. Tablet Screen](documentation/tablet_contact_form_page.png)
-- [Response Page. Tablet Screen](documentation/tablet_response_page.png)
+- [Home Page. Tablet Screen](documentation/home-wireframe-tablet.png)
+- [Gallery Page. Tablet Screen](documentation/about-wireframe-tablet.png)
+- [Contact Page. Tablet Screen](documentation/form-wireframe-tablet.png)
 
 #### Mobile devices
 * [Navbar and Logo for tablets Tablets](documentation/navbar-logo-tablet.png)
 
-
 #### Mobile devices
 
-#### Tablets
-
-#### Desktop
+- The wireframes for mobile devices are the same as for tablet screens.
 
 ## Testing
 
 ### Validator Testing 
 
 ### Manual testing
+
+| feature | action | expected result | tested | passed | comments |
+| --- | --- | --- | --- | --- | --- |
+| Navbar | | | | | |
+| Home | Click on the "Home" link | The user is redirected to the main page | Yes | Yes | - |
+| About | Click on the "About" link | The user is redirected to the About Page | Yes | Yes | - |
+| Contact | Click on the "Contact" link | The user is redirected to the Contact page | Yes | Yes | - |
+| Footer | | | | | |
+| Facebook icon in the footer | Click on the Facebook icon | The user is redirected to the Porada-de Facebook page | Yes | Yes | - |
+| Twitter icon in the footer | Click on the Twitter icon | The user is redirected to the Twitter page | Yes | Yes | - |
+| Instagram icon in the footer | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
+| YouTube icon in the footer | Click on the YouTube icon | The user is redirected to the Soliduarity e.V. YouTube page | Yes | Yes | - |
+| Home page | | | | | |
+| "Soliduarity e.V." click on the "Soliduarity e.V." link | The user is redirected to the Soliduarity e.V. main page | Yes | Yes | - |
+| "Scroll on Top" button | Click on the "Scroll on Top" button | The user is redirected to the beginning of Home page | Yes | Yes | - |
+| "Scroll on Top" button | User hover the button | Light gray background color appears | Yes | Yes | - |
+| About page | | | | | |
+| Logo | Click on the "Porada-de" link | The user is redirected to the Home page | Yes | Yes | - |
+| "Follow on Facebook" button | Click on the "Follow on Facebook" button | The user is redirected to the founder profile Facebook page | Yes | Yes | - |
+| "Follow on Facebook" button | User hover the button | Light blue background color appears | Yes | Yes | - |
+| "Scroll on Top" button | Click on the "Scroll on Top" button | The user is redirected to the beginning of Home page | Yes | Yes | - |
+| "Scroll on Top" button | User hover the button | Light gray background color appears | Yes | Yes | - |
+| Contact page | | | | | |
+| Name input | Enter the name | The name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
+| Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
+| Select State option | Pick a state | The state is picked | Yes | Yes | If user doesn't pick the state, the error message appears |
+| Type your message textarea | write a message | The message is written | Yes | Yes | If user doesn't write a message, the message is sent |
+| "Submit" button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | - |
+| Response page | | | | | |
+| Response message | The user will be automatically redirected to the home page after 10 seconds | The user is redirected to the Home page | Yes | Yes | - |
 
 ### Accessibility and performance 
 
