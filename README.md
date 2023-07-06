@@ -82,7 +82,7 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
 * The Video Project Section contains eight videos that are made by the team. This section will allow the user to see exactly what kinds of topics are covered on the videos.
 * This section will be updated as the new videos come in the course of time to keep the user up to date.
 
-- Is also has a button Scross on Top that directs to the beginning of Home page.
+- It also has a button Scross on Top that directs to the beginning of Home page.
 ​
 ![Project Ethos section](documentation/video-project-screenshot.png)
 
@@ -98,9 +98,15 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
 * The Team Information Section will provide the user with information about the project's founders: their names and links to their Facebook profiles.
 This section is useful to the user as they will be able to easily contact the founders only by clicking on the Facebook button.
 
+*- It also has a button Scross on Top that directs to the beginning of About page.
+
 ![Team Information Section](documentation/team-information.png)
 
 - __Contact Form__ 
+
+* This page will allow the user to leave a message to the Porada-de team to join the team or to collaborate. The user will be asked to submit their name, state and email address.
+
+![Contact Form](documentation/contact-form-screenshot.png)
 
 ### Features Left to Implement
 
