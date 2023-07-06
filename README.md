@@ -4,7 +4,7 @@ Porada-de is a site that provides information about the project “Porada-de” 
 
 ![Responsice Mockup](documentation/responsive-mockup.png)
 
-The site can be accessed by this [link](https://zhannamatuzak.github.io/porada-de/index.html)
+This site can be accessed by this [link.](https://zhannamatuzak.github.io/porada-de/index.html)
 
 ## User Flow
 
@@ -45,28 +45,37 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
 
 - __Navigation Bar and Logo__
 
-- Navigation bar and Logo are positioned at the top of the page and placed in the header.
-- Logo of the project is on the left side of the header. It is the word Porada-de which begins with the capital letter and then contains the lowercase letters. There is a scales symbol as well shown on the favicon. The scales symbol is a part of the logo. It is not to see in the header for design reasons. The main reason is that the scales are already on the main image on Home page. This idea is borrowed from the Code Institute website.
-- Navigation bar is on the right side of the header. It contains navigation links. These are:
+* Navigation bar and Logo are positioned at the top of the page and placed in the header.
+* Logo of the project is on the left side of the header. It is the word Porada-de which begins with the capital letter and then contains the lowercase letters. There is a scales symbol as well shown on the favicon. The scales symbol is a part of the logo. It is not to see in the header for design reasons. The main reason is that the scales are already on the main image on Home page. This idea is borrowed from the Code Institute website.
+* Navigation bar is on the right side of the header. It contains navigation links. These are:
   * Home - leads to the Home page, where users can learn about the project Porada-de.
   * About Us - leads to the About page, where users can find information about the founders.    
   * Contact - leads to the contact form page, where users can fill out the form to become a part of a team or to collaborate.
   * Donate - leads to the Donation page of our organization [Soliduarity e. V..](https://www.soliduarity.org/donate/). The Donate link has a heart icon and is designed like a button so the visitor understands that the link has an additional donate function.
-- The links have a hover effect. The color of the hover is the brand color of our project which is Clam Shell.
+* The links have a hover effect. The color of the hover is the brand color of our project which is Clam Shell.
 - The navigation is clear and easy to understand for the user.
 
 ![Navbar and Logo](documentation/navbar-logo.png)
 
-- The navigation bar and Logo are responsive:
+* The navigation bar and Logo are responsive:
   * On tablet screens: navigation bar and logo organize a column, where all elements are centered.
 
 ![Navbar and Logo for tablets Tablets](documentation/navbar-logo-tablet.png)
 
   * On mobile devices screens, navigation bar and logo look the same as on the tablet screens.
 
-- __The landing page image__
+- __The Landing page (Main image) image__
 
-- __Club Ethos Section__
+*The Main image represents the focus of the project that is the legal and bureaucratic system. The scales on it are a part of our logo. The member of our community recognize it because it is the cover image of the facebook page of the project.
+
+![Main Image](assets/images/justice.jpg)
+
+- __Project Ethos Section__
+
+*The Project Ethos section will allow the user to learn about the project and its spectrum of topics. This should encourage the user to consider joining our Facebook community and help the members with advice. 
+* It consists of two subsections: Project description subsection and Topics list subsection.
+
+![Project Ethos section](documentation/project-ethos-screenshot.png)
 
 - __Video Project Section__
 
