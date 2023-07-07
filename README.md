@@ -274,6 +274,10 @@ No errors or warnings were found when passing through the official W3C (Jigsaw) 
    - In the Video Project section, it is said that the videos are loading slowly;
    - Two elements have large layouts shifts. I have tried to avoid it by implementing a hamburger menu. Unfortunately, I failed to implement it. It will be solved with Java Script later on.
 
+- The accessibility score on the Response page is weighted 89% because:
+
+  - If the purpose of the <meta> element is to refresh the page, this should be handled through JavaScript. This issue will be solved using Java Script later on.
+
 ### Fixed Bugs
 
  1. The header elements were not responsive because it was used float.
