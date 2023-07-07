@@ -44,19 +44,19 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
 
 - __Navigation Bar and Logo__
 
-- Navigation bar and Logo are positioned at the top of the page and placed in the header.
-- Logo of the project is on the left side of the header. It is the word Porada-de which begins with the capital letter and then contains the lowercase letters. There is a scales symbol as well shown on the favicon. The scales symbol is a part of the logo. It is not to see in the header for design reasons. The main reason is that the scales are already on the main image on Home page. This idea is borrowed from the Code Institute website.
-- Navigation bar is on the right side of the header. It contains navigation links. These are:
-  - Home - leads to the Home page, where users can learn about the project Porada-de.
-  - About Us - leads to the About page, where users can find information about the founders.    
-  - Contact - leads to the contact form page, where users can fill out the form to become a part of a team or to collaborate.
-  - Donate - leads to the Donation page of our organization [Soliduarity e. V..](https://www.soliduarity.org/donate/) The Donate link has a heart icon and is designed like a button so the visitor understands that the link has an additional donate function.
-- The links have a hover effect. The color of the hover is the brand color of our project which is Clam Shell.
-- The navigation is clear and easy to understand for the user.
+  - Navigation bar and Logo are positioned at the top of the page and placed in the header.
+  - Logo of the project is on the left side of the header. It is the word Porada-de which begins with the capital letter and then contains the lowercase letters. There is a scales symbol as well shown on the favicon. The scales symbol is a part of the logo. It is not to see in the header for design reasons. The main reason is that the scales are already on the main image on Home page. This idea is borrowed from the Code Institute website.
+  - Navigation bar is on the right side of the header. It contains navigation links. These are:
+    - Home - leads to the Home page, where users can learn about the project Porada-de.
+    - About Us - leads to the About page, where users can find information about the founders.    
+    - Contact - leads to the contact form page, where users can fill out the form to become a part of a team or to collaborate.
+    - Donate - leads to the Donation page of our organization [Soliduarity e. V..](https://www.soliduarity.org/donate/) The Donate link has a heart icon and is designed like a button so the visitor understands that the link has an additional donate function.
+  - The links have a hover effect. The color of the hover is the brand color of our project which is Clam Shell.
+  - The navigation is clear and easy to understand for the user.
 
 ![Navbar and Logo](documentation/navbar-logo.png)
 
-- The navigation bar and Logo are responsive.
+  - The navigation bar and Logo are responsive.
   - On tablet screens: navigation bar and logo organize a column, where all elements are centered.
 
 ![Navbar and Logo for tablets Tablets](documentation/navbar-logo-tablet.png)
@@ -65,54 +65,54 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
 
 - __The Landing Page (Main image) image__
 
-- The Main image represents the focus of the project which is the legal and bureaucratic system. The scales on it are a part of our logo. The members of our community recognize it because its design is very similar to the cover image of the Facebook page of the project.
+  - The Main image represents the focus of the project which is the legal and bureaucratic system. The scales on it are a part of our logo. The members of our community recognize it because its design is very similar to the cover image of the Facebook page of the project.
 
 ![Main Image](assets/images/justice.jpg)
 
 - __Project Ethos Section__
 
-- The Project Ethos section will allow the user to learn about the project and its spectrum of topics. This should encourage the user to consider joining our Facebook community and help the members with advice. It has a link to the project's Organization.
-- It consists of two subsections: the project description and the topics list subsections.
+  - The Project Ethos section will allow the user to learn about the project and its spectrum of topics. This should encourage the user to consider joining our Facebook community and help the members with advice. It has a link to the project's Organization.
+  - It consists of two subsections: the project description and the topics list subsections.
 
 ![Project Ethos section](documentation/project-ethos-screenshot.png)
 
 - __Video Project Section__
 
-- The Video Project Section contains eight videos that are made by the team. This section will allow the user to see exactly what kinds of topics are covered on the videos.
-- This section will be updated as the new videos come in the course of time to keep the user up to date.
+  - The Video Project Section contains eight videos that are made by the team. This section will allow the user to see exactly what kinds of topics are covered on the videos.
+  - This section will be updated as the new videos come in the course of time to keep the user up to date.
 
-- It also has a button Scross on Top that directs to the beginning of Home page.
+  - It also has a button Scross on Top that directs to the beginning of Home page.
 ​
 
 ![Project Ethos section](documentation/video-project-screenshot.png)
 
 - __The Footer__ 
 
-- The Footer section includes four links to the relevant social media sites for Porada-de. The Facebook and Youtube links are existing links to the project. The links will open to a new tab to allow easy navigation for the user.
-- The footer is valuable to the user as it encourages them to keep connected via social media.
+  - The Footer section includes four links to the relevant social media sites for Porada-de. The Facebook and Youtube links are existing links to the project. The links will open to a new tab to allow easy navigation for the user.
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
 
 ![Footer](documentation/footer-screenshot.png)
 
 - __Team Information Section__ 
 
-- The Team Information Section will provide the user with information about the project's founders: their names and links to their Facebook profiles.
+  - The Team Information Section will provide the user with information about the project's founders: their names and links to their Facebook profiles.
 This section is useful to the user as they will be able to easily contact the founders only by clicking on the Facebook button.
 
-- It also has a button Scross on Top that directs to the beginning of the About page.
+  - It also has a button Scross on Top that directs to the beginning of the About page.
 
 ![Team Information Section](documentation/team-information.png)
 
 - __Contact Form Section__ 
 
-- This page will allow the user to leave a message to the Porada-de team to join the team or to collaborate. The user will be asked to submit their name, email address, and state and write a message.
+  - This page will allow the user to leave a message to the Porada-de team to join the team or to collaborate. The user will be asked to submit their name, email address, and state and write a message.
 
 ![Contact Form](documentation/contact-form-screenshot.png)
 
 - __Response Section__ 
 
-- Response page appears after submitting the contact form.
-- It contains the "Thank you!" message.
-- It will automatically direct the user to the main page in 10 seconds.
+  - Response page appears after submitting the contact form.
+  - It contains the "Thank you!" message.
+  - It will automatically direct the user to the main page in 10 seconds.
 
 ![Response page](documentation/response-page-screenshot.jpeg)
 
@@ -191,13 +191,13 @@ The code is to find [here.](https://codepen.io/chris22smith/pen/pGNVwZ)
 
 ### Devtools
 
-The website was checked by devtools implemented in Firefox and Chrome browsers.
+- The website was checked by devtools implemented in Firefox and Chrome browsers.
 
 ### Responsive viewer
 
-The website was checked with [Responsive viewer](https://responsivedesignchecker.com/) extension on the Chrome browser.
+- The website was checked with [Responsive viewer](https://responsivedesignchecker.com/) extension on the Chrome browser.
 
-Here are some of the full pages in different sizes captured on Responsive viewer.
+- Here are some of the full pages in different sizes captured on Responsive viewer.
 
 ![Responsive viewer](documentation/responsive-pages.png)
 
@@ -206,22 +206,22 @@ Here are some of the full pages in different sizes captured on Responsive viewer
 ### HTML
 
 #### Home Page
-- No errors or warnings were found when passing through the official W3C validator.
+No errors or warnings were found when passing through the official W3C validator.
 
 ![Home Page HTML Validator](documentation/home-validator-html.jpeg)
 
 #### About Page
-- No errors or warnings were found when passing through the official W3C validator.
+No errors or warnings were found when passing through the official W3C validator.
 
 ![About Page HTML Validator](documentation/about-validator-html.jpeg)
 
 #### Contact Page
-- No errors or warnings were found when passing through the official W3C validator.
+No errors or warnings were found when passing through the official W3C validator.
 
 ![Contact Page HTML Validator](documentation/contact-validator-html.jpeg)
 
 #### Response Page
-- No errors or warnings were found when passing through the official W3C validator.
+No errors or warnings were found when passing through the official W3C validator.
 
 ![Response Page HTML Validator](documentation/response-validator-html.jpeg)
 
@@ -319,7 +319,7 @@ The live link can be found here - https://zhannamatuzak.github.io/porada-de/inde
 In order to make a local copy of this project, you can clone it.
 In your IDE Terminal, type the following command to clone my repository:
 
-- `git clone https://github.com/zhannamatuzak/porada-de.git`
+`git clone https://github.com/zhannamatuzak/porada-de.git`
 
 ## Credits 
 
