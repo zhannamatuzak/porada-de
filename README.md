@@ -1,6 +1,6 @@
 # Porada-de
 
-Porada-de is a site that provides information about the project “Porada-de” for Ukrainians in Germany. This project is an existing project that started at the end of July 2022. The site will be targeted toward refugees and migrants who are looking for advice about the German legal and bureaucratic system. This site will be useful for those who want to join the team, collaborate, or donate. The project exists as a Facebook page, where the posts are published weekly and then discussed in our [Facebook community](https://www.facebook.com/groups/642363020399443) (group). The group has over 37 thousand members. The group grows dynamically and needs urgently more people to advise and write posts. That is why the main aim is to attract people who want to contribute to the project and, therefore, to the community. My friend Vira and I are founders of Porada-de project.
+Porada-de is a site that provides information about the project “Porada-de” for Ukrainians in Germany. This project is an existing project that started at the end of July 2022. The site will be targeted toward refugees and migrants who are looking for advice about the German legal and bureaucratic system. This site will be useful for those who want to join the team, collaborate, or donate. The project exists as a Facebook page, where the posts are published weekly and then discussed in our [Facebook community](https://www.facebook.com/groups/642363020399443) (group). The group has over 37 thousand members. The group grows dynamically and needs urgently more people to advise and write posts. That is why the main aim is to attract people who want to contribute to the project and, therefore, to the community. My friend Vira and I are founders of the Porada-de project.
 
 ![Responsice Mockup](documentation/responsive-mockup.png)
 
@@ -20,7 +20,7 @@ This site can be accessed by this [link.](https://zhannamatuzak.github.io/porada
 1. As a visitor, I want to find information about the project to learn about the project's focus and its outcomes.
 2. As a visitor, I want to find out who the members of the team are to get in contact with them.
 3. As a visitor, I want to join the team or collaborate because I want to be useful for the Ukrainian community.
-4. As a visitor, I look for the opportunity to support the project financially via donations to make useful content for the refugees and Ukrainian migrants.
+4. As a visitor, I look for the opportunity to support the project financially via donations to make useful content for Ukrainian refugees and migrants.
 
 ### Task flows
 
@@ -215,7 +215,7 @@ Here are some of the full pages in different sizes captured on Responsive viewer
 #### Contact Page
 - No errors or warnings were found when passing through the official W3C validator.
 
-  ![Contact Page HTML Validator](documentation/contact-validator-html.jpeg)
+![Contact Page HTML Validator](documentation/contact-validator-html.jpeg)
 
 #### Response Page
 - No errors or warnings were found when passing through the official W3C validator.
@@ -263,7 +263,24 @@ No errors or warnings were found when passing through the official W3C (Jigsaw) 
 
 - Using Lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
 
-- In the Video Project section on the Home page, it is said that the videos are loading slowly. That is why the best practices score is weighted only 83%.
+#### Unfixed bugs
+
+- The best practices score on the Home page is weighted only 83% because:
+
+   - Largest Contentful Paint element is found;
+   - In the Video Project section, it is said that the videos are loading slowly;
+   - Two elements have large layouts shifts. I have tried to avoid it by implementing a hamburger menu. Unfortunately, I failed to implement it. It will be solved with Java Script later on.
+
+### Fixed Bugs
+
+ 1. The header elements were not responsive because it was used float.
+*Solution:* Instead of floats ware used flexbox and grid layouts.
+
+2. The elements changed their positions.
+*Solution:* The parent element was given width and height.
+
+3. The videos from YouTube in the video project section ware not shown. 
+*Solution:* The embed links to videos ware copied on YouTube. 
 
  #### Home page
 
@@ -280,20 +297,6 @@ No errors or warnings were found when passing through the official W3C (Jigsaw) 
   #### Response page
 
   ![Response Page Lighthouse](documentation/response-lighthouse.png)
-
-### Fixed Bugs
-
- 1. The header elements were not responsive because it was used float.
-*Solution:* Instead of floats ware used flexbox and grid layouts.
-
-2. The elements changed their positions.
-*Solution:* The parent element was given width and height.
-
-3. The videos from YouTube in the video project section ware not shown. 
-*Solution:* The embed links to videos ware copied on YouTube. 
-
-### Unfixed Bugs
-None.
 
 ## Deployment
 
