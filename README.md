@@ -118,7 +118,7 @@ This section is useful to the user as they will be able to easily contact the fo
 
 - __Favicon__
 
-For favicon I used our project's logo from the Facebook page.
+- For favicon I used our project's logo from the Facebook page.
 
 ![Favicon](favicon/apple-touch-icon.png)
 
@@ -206,27 +206,27 @@ The code is to find [here.](https://codepen.io/chris22smith/pen/pGNVwZ)
 ### HTML
 
 #### Home Page
-No errors or warnings were found when passing through the official W3C validator.
+- No errors or warnings were found when passing through the official W3C validator.
 
 ![Home Page HTML Validator](documentation/home-validator-html.jpeg)
 
 #### About Page
-No errors or warnings were found when passing through the official W3C validator.
+- No errors or warnings were found when passing through the official W3C validator.
 
 ![About Page HTML Validator](documentation/about-validator-html.jpeg)
 
 #### Contact Page
-No errors or warnings were found when passing through the official W3C validator.
+- No errors or warnings were found when passing through the official W3C validator.
 
 ![Contact Page HTML Validator](documentation/contact-validator-html.jpeg)
 
 #### Response Page
-No errors or warnings were found when passing through the official W3C validator.
+- No errors or warnings were found when passing through the official W3C validator.
 
 ![Response Page HTML Validator](documentation/response-validator-html.jpeg)
 
 ### CSS
-No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
+- No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
 
 ![CSS Validator](documentation/css-validation.jpeg)
 
@@ -316,7 +316,7 @@ The live link can be found here - https://zhannamatuzak.github.io/porada-de/inde
 
 ## Local Deployment
 
-In order to make a local copy of this project, you can clone it.
+- In order to make a local copy of this project, you can clone it.
 In your IDE Terminal, type the following command to clone my repository:
 
 `git clone https://github.com/zhannamatuzak/porada-de.git`
