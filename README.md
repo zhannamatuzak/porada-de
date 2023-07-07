@@ -323,13 +323,18 @@ In your IDE Terminal, type the following command to clone my repository:
 
 ### Media
 
-The main image and two tick images were taken from [Pixabay.](https://pixabay.com/de/)
+- The main image and two tick images were taken from [Pixabay.](https://pixabay.com/de/):
 
 1.[Justice image](https://pixabay.com/de/photos/die-gesetzlichen-gerechtigkeit-4926021/)
 2. [Red tick image](https://pixabay.com/de/vectors/pr%C3%BCfen-h%C3%A4kchen-rot-markierung-tick-303494/)
  3. [Green tick image](https://pixabay.com/de/photos/die-gesetzlichen-gerechtigkeit-4926021/)
 
-The images for the About page are photos of my friend Vira and me because we are the founders of the project.
+- The images for the About page are photos of my friend Vira and me because we are the founders of the project.
 
-The YouTube videos are made by my team and me supported by the organization Soliduarity e.V..
+- The YouTube videos are made by my team and me supported by the organization Soliduarity e.V..
+
+### Acknowledgments
+
+I am thankful for the support of my tutor Iuliia Konovalova for guiding me through the project, Slack community members for their fast reaction to my questions, and the Slack May team for sharing their projects with me.
+
 
