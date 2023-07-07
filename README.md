@@ -22,7 +22,6 @@ This site can be accessed by this [link.](https://zhannamatuzak.github.io/porada
 3. As a visitor, I want to join the team or collaborate because I want to be useful for the Ukrainian community.
 4. As a visitor, I look for the opportunity to support the project financially via donations to make useful content for the refugees and Ukrainian migrants.
 
-
 ### Task flows
 
 1. User is on the landing page 🠊 sees the main image 🠊 scrolls down 🠊 sees the project description subsection 🠊 reads the information about the project 🠊 clicks on the link, which takes the user to the organization [Soliduarity e.V.](https://www.soliduarity.org/) 🠊 surfs of the website and comes back to [Porada-de](https://www.facebook.com/PoradaDE) page 🠊 scrolls further down 🠊 lands on the topic lists subsection 🠊 sees six most discussed topics on Facebook page [Porada-de](https://www.facebook.com/PoradaDE) 🠊 sees the footer with four social media links 🠊 clicks on the link the user wants 🠊 comes back to the page 🠊 clicks on the button Scroll on Top.
@@ -62,7 +61,7 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
 
 ![Navbar and Logo for tablets Tablets](documentation/navbar-logo-tablet.png)
 
-  * On mobile devices screens, navigation bar and logo look the same as on the tablet screens.
+  - On mobile devices screens, navigation bar and logo look the same as on the tablet screens.
 
 - __The Landing Page (Main image) image__
 
@@ -104,7 +103,7 @@ This section is useful to the user as they will be able to easily contact the fo
 
 - __Contact Form Section__ 
 
-- This page will allow the user to leave a message to the Porada-de team to join the team or to collaborate. The user will be asked to submit their name, email address,and state and write a message.
+- This page will allow the user to leave a message to the Porada-de team to join the team or to collaborate. The user will be asked to submit their name, email address, and state and write a message.
 
 ![Contact Form](documentation/contact-form-screenshot.png)
 
@@ -118,7 +117,7 @@ This section is useful to the user as they will be able to easily contact the fo
 
 - __Favicon__
 
-For favicon I used our project's [logo](favicon/apple-touch-icon.png) from the Facebook page.
+For favicon I used our project's ![logo](favicon/apple-touch-icon.png) from the Facebook page.
 
 ### Features Left to Implement
 
@@ -159,16 +158,13 @@ For favicon I used our project's [logo](favicon/apple-touch-icon.png) from the F
 
 ![Website-colors](documentation/website-colors.png)
 
-The usage of two colors could be boring for some visitors and they could leave the website. In order to keep up the user motivation and to improve use experiences, the modest background pattern was used.
-
-![Main-background](documentation/main-background.png)
-
-The Subtle Gradient Pattern Background for the main was used from the [freefrontend](https://freefrontend.com/css-background-patterns/). 
-The code is to find [here](https://codepen.io/chris22smith/pen/pGNVwZ) 
+- The usage of two colors could be boring for some visitors and they could leave the website. 
+In order to keep up the user motivation and to improve user experiences, the [the Subtle Gradient Pattern Background](documentation/main-background.png) was used for the main content from the [freefrontend.](https://freefrontend.com/css-background-patterns/). 
+The code is to find [here.](https://codepen.io/chris22smith/pen/pGNVwZ) 
 
 ### Typography
 
-* Two fonts ware used in this project such as Oswald for the logo and heading 2 and Source-Sans-3 for the body elements. Oswald font is already used for titles of posters and presentations of Porada-de project. Source-Sans-3 was generated as a suitable font for Oswald.
+* Two fonts were used in this project such as Oswald for the logo and heading 2 and Source-Sans-3 for the body elements. Oswald font is already used for titles of posters and presentations of the Porada-de project. Source-Sans-3 was generated as a suitable font for Oswald.
 
 ### Wireframes
 
@@ -197,6 +193,10 @@ The website was checked by devtools implemented in Firefox and Chrome browsers.
 ### Responsive viewer
 
 The website was checked with [Responsive viewer](https://responsivedesignchecker.com/) extension on the Chrome browser.
+
+Here are some of the full pages in different sizes captured on Responsive viewer.
+
+![Responsive viewer](documentation/responsive-pages.png)
 
 ### Validator Testing 
 
@@ -251,10 +251,10 @@ No errors or warnings were found when passing through the official W3C (Jigsaw) 
 | "Scroll on Top" button | Click on the "Scroll on Top" button | The user is redirected to the beginning of Home page | Yes | Yes | - |
 | "Scroll on Top" button | User hover the button | Light gray background color appears | Yes | Yes | - |
 | Contact page | | | | | |
-| Name input | Enter the name | The name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
-| Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
+| Name input | Enter the name | The name is entered | Yes | Yes | If the user doesn't enter the first name, the error message appears |
+| Email input | Enter the email | The email is entered | Yes | Yes | If the user doesn't enter the email, the error message appears. |
 | Select State option | Pick a state | The state is picked | Yes | Yes | If user doesn't pick the state, the error message appears |
-| Type your message textarea | write a message | The message is written | Yes | Yes | If user doesn't write a message, the message is sent |
+| Type your message textarea | Write a message | The message is written | Yes | Yes | If the user doesn't write a message, the message is sent |
 | "Submit" button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | - |
 | Response page | | | | | |
 | Response message | The user will be automatically redirected to the home page after 10 seconds | The user is redirected to the Home page | Yes | Yes | - |
@@ -262,6 +262,8 @@ No errors or warnings were found when passing through the official W3C (Jigsaw) 
 ### Accessibility and performance 
 
 - Using Lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
+
+- In the Video Project section on the Home page, it is said that the videos are loading slowly. That is why the best practices score is weighted only 83%.
 
  #### Home page
 
@@ -281,10 +283,10 @@ No errors or warnings were found when passing through the official W3C (Jigsaw) 
 
 ### Fixed Bugs
 
- 1. The header elements ware not responsive because it was used float.
+ 1. The header elements were not responsive because it was used float.
 *Solution:* Instead of floats ware used flexbox and grid layouts.
 
-2. The elements chaged their positions.
+2. The elements changed their positions.
 *Solution:* The parent element was given width and height.
 
 3. The videos from YouTube in the video project section ware not shown. 
@@ -315,19 +317,19 @@ In your IDE Terminal, type the following command to clone my repository:
 
 - The text for the Home page is my text.
 - The icons in the footer were taken from Font Awesome.
-- The inspiration for the design of the Project ethos section on Home page comes from [Code Institute](https://codeinstitute.net/de/) website.
+- The inspiration for the design of the Project ethos section on the Home page comes from [Code Institute](https://codeinstitute.net/de/) website.
 - The inspiration for the contact form comes from [Project 1 – EtchPad.](https://andodaryl.github.io/EtchPad/order.html) 
 - Inspiration for the footer comes from [Iuliia Konovalova](https://iuliiakonovalova.github.io/animal_shelter/) first project.
 
 ### Media
 
-The main image and two tick images were taken from [Pixabay](https://pixabay.com/de/)
+The main image and two tick images were taken from [Pixabay.](https://pixabay.com/de/)
 
 1.[Justice image](https://pixabay.com/de/photos/die-gesetzlichen-gerechtigkeit-4926021/)
-2. [Red tock image](https://pixabay.com/de/vectors/pr%C3%BCfen-h%C3%A4kchen-rot-markierung-tick-303494/)
+2. [Red tick image](https://pixabay.com/de/vectors/pr%C3%BCfen-h%C3%A4kchen-rot-markierung-tick-303494/)
  3. [Green tick image](https://pixabay.com/de/photos/die-gesetzlichen-gerechtigkeit-4926021/)
 
 The images for the About page are photos of my friend Vira and me because we are the founders of the project.
 
-The YouTube videos are made by my team and me supported by organization Soliduarity e.V..
+The YouTube videos are made by my team and me supported by the organization Soliduarity e.V..
 
