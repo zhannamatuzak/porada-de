@@ -50,7 +50,7 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
   - Home - leads to the Home page, where users can learn about the project Porada-de.
   - About Us - leads to the About page, where users can find information about the founders.    
   - Contact - leads to the contact form page, where users can fill out the form to become a part of a team or to collaborate.
-  - Donate - leads to the Donation page of our organization [Soliduarity e. V..](https://www.soliduarity.org/donate/). The Donate link has a heart icon and is designed like a button so the visitor understands that the link has an additional donate function.
+  - Donate - leads to the Donation page of our organization [Soliduarity e. V..](https://www.soliduarity.org/donate/) The Donate link has a heart icon and is designed like a button so the visitor understands that the link has an additional donate function.
 - The links have a hover effect. The color of the hover is the brand color of our project which is Clam Shell.
 - The navigation is clear and easy to understand for the user.
 
@@ -83,6 +83,7 @@ If the user decides not to fill in the form, he leaves the page/website or surfs
 
 - It also has a button Scross on Top that directs to the beginning of Home page.
 ​
+
 ![Project Ethos section](documentation/video-project-screenshot.png)
 
 - __The Footer__ 
@@ -117,7 +118,9 @@ This section is useful to the user as they will be able to easily contact the fo
 
 - __Favicon__
 
-For favicon I used our project's ![logo](favicon/apple-touch-icon.png) from the Facebook page.
+For favicon I used our project's logo from the Facebook page.
+
+![Favicon](favicon/apple-touch-icon.png)
 
 ### Features Left to Implement
 
@@ -274,7 +277,7 @@ No errors or warnings were found when passing through the official W3C (Jigsaw) 
 ### Fixed Bugs
 
  1. The header elements were not responsive because it was used float.
-*Solution:* Instead of floats ware used flexbox and grid layouts.
+*Solution:* Instead of floats were used flexbox and grid layouts.
 
 2. The elements changed their positions.
 *Solution:* The parent element was given width and height.
@@ -326,11 +329,12 @@ In your IDE Terminal, type the following command to clone my repository:
 
 ### Media
 
-- The main image and two tick images were taken from [Pixabay.](https://pixabay.com/de/):
+- The main image and two tick images were taken from [Pixabay](https://pixabay.com/de/):
 
-1.[Justice image](https://pixabay.com/de/photos/die-gesetzlichen-gerechtigkeit-4926021/)
-2. [Red tick image](https://pixabay.com/de/vectors/pr%C3%BCfen-h%C3%A4kchen-rot-markierung-tick-303494/)
- 3. [Green tick image](https://pixabay.com/de/photos/die-gesetzlichen-gerechtigkeit-4926021/)
+  - [Justice image](https://pixabay.com/de/photos/die-gesetzlichen-gerechtigkeit-4926021/)
+
+  - [Red tick image](https://pixabay.com/de/vectors/pr%C3%BCfen-h%C3%A4kchen-rot-markierung-tick-303494/)
+  - [Green tick image](https://pixabay.com/de/photos/die-gesetzlichen-gerechtigkeit-4926021/)
 
 - The images for the About page are photos of my friend Vira and me because we are the founders of the project.
 
