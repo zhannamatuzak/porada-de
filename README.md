@@ -118,7 +118,7 @@ This section is useful to the user as they will be able to easily contact the fo
 
 - __Favicon__
 
-- For favicon I used our project's logo from the Facebook page.
+ - For favicon I used our project's logo from the Facebook page.
 
 ![Favicon](favicon/apple-touch-icon.png)
 
@@ -312,7 +312,7 @@ The code is to find [here.](https://codepen.io/chris22smith/pen/pGNVwZ)
   - From the source section drop-down menu, select the **Main** Branch and click "save".
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://zhannamatuzak.github.io/porada-de/index.html 
+The live link can be found here - https://zhannamatuzak.github.io/porada-de/ 
 
 ## Local Deployment
 
